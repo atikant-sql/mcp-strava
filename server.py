@@ -189,9 +189,6 @@ def get_activity(activity_id: int):
     return resp.json()
 
 # Entry point for Claude and for local testing
-# --- keep everything above as is ---
-
-# Keep all your imports and tool definitions above
 
 if __name__ == "__main__":
     import sys
