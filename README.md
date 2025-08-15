@@ -19,6 +19,7 @@ python -m venv .venv
 . .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
+
 ```mermaid
 flowchart TD
     A[Start in VS Code] --> B[Write server.py with MCP tools and env based config]
@@ -46,5 +47,5 @@ flowchart TD
     S --> |client_id invalid| U[Fix STRAVA_CLIENT_ID then run oauth_login again]
     S --> |redirect_uri mismatch| V[Keep STRAVA_REDIRECT_URI = http://localhost:8723/callback and dashboard domain = localhost]
     S --> |code invalid or expired| W[Run oauth_login again and authorise promptly]
-
 ```
+
