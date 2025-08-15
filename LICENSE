@@ -1,0 +1,5 @@
+
+## v0.1.0 - 2025-08-15
+- First working release
+- Tools: oauth_login, list_activities, get_activity
+- OAuth flow with token refresh

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime tokens and logs
+.strava_tokens.json
+*.log
+logs/
+
+# Local Claude config copies if you ever save one here
+claude_desktop_config*.json
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
